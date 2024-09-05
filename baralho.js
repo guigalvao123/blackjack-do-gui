@@ -2,7 +2,8 @@ function comprarCarta(){
     const cartas = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"];
     const naipes = ["♦️", "♥️", "♣️", "♠️"]
     const sortearNumero = cartas[Math.floor(Math.random() * 13)]
-    const sortearNaipe = naipes[Math.floor(Math.random) * 4]
+    const sortearNaipe = naipes[Math.floor(Math.random() * 4) ]
+    
     let valor
 
     if(sortearNumero === "A"){
